@@ -61,7 +61,7 @@ Une API REST sera mise à disposition en fin de projet. En attendant, toutes les
 
 ### Livrables
 - **Application web fonctionnelle** : Code source sur un repository Git (GitHub/GitLab)
-- **Présentation orale** (8-10 minutes) :
+- **Présentation orale** (5-7 minutes) :
   - Architecture des pages et composants
   - Choix techniques et justification
   - Démonstration des fonctionnalités
