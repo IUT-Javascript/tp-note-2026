@@ -13,8 +13,8 @@ Vous devrez réaliser une application web de gestion d'équipes de jeux de rôle
 Votre application doit permettre de :
 - **Lister les équipes** : Afficher toutes les équipes sur la page d'accueil avec une vue d'ensemble
 - **Détails d'une équipe** : Afficher les informations complètes d'une équipe sur une page dédiée, incluant ses personnages
-- **Ajouter une équipe** : Formulaire pour créer une nouvelle équipe avec nom et personnages. Une équipe doit être composé d'au moins 2 personnes et son nom doit faire minimum 10 caractères.
-- **Éditer une équipe** : Modifier le nom et la composition d'une équipe existante
+- **Ajouter une équipe** : Formulaire pour créer une nouvelle équipe avec nom et personnages. Une équipe doit être composée d'au moins 2 personnages et son nom doit faire minimum 10 caractères.
+- **Éditer une équipe** : Modifier le nom et la composition d'une équipe existante. Une équipe doit être composée d'au moins 2 personnages et son nom doit faire minimum 10 caractères.
 - **Supprimer une équipe** : Possibilité de supprimer une équipe (avec confirmation)
 - **Marquer comme favorite** : Permettre à un utilisateur de définir une équipe comme favorite
 
