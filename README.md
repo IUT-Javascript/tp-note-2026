@@ -13,7 +13,7 @@ Vous devrez réaliser une application web de gestion d'équipes de jeux de rôle
 Votre application doit permettre de :
 - **Lister les équipes** : Afficher toutes les équipes sur la page d'accueil avec une vue d'ensemble
 - **Détails d'une équipe** : Afficher les informations complètes d'une équipe sur une page dédiée, incluant ses personnages
-- **Ajouter une équipe** : Formulaire pour créer une nouvelle équipe avec nom et personnages
+- **Ajouter une équipe** : Formulaire pour créer une nouvelle équipe avec nom et personnages. Une équipe doit être composé d'au moins 2 personnes et son nom doit faire minimum 10 caractères.
 - **Éditer une équipe** : Modifier le nom et la composition d'une équipe existante
 - **Supprimer une équipe** : Possibilité de supprimer une équipe (avec confirmation)
 - **Marquer comme favorite** : Permettre à un utilisateur de définir une équipe comme favorite
@@ -48,13 +48,13 @@ interface FavoriteTeam {
 ```
 
 #### Architecture de l'Application
-- **Composants** : Créer des composants réutilisables (TeamCard, CharacterForm, etc.)
+- **Composants** : Créer des composants réutilisables
 - **Vues/Pages** :
   - Home : Liste des équipes
   - TeamDetail : Détails d'une équipe
   - AddTeam : Formulaire d'ajout
   - EditTeam : Formulaire d'édition
-- **Services** : Créer des services pour gérer LocalStorage (teamService, characterService)
+- **Services** : Créer des services pour gérer les différents périmètres.
 
 ### Source de Données
 Une API REST sera mise à disposition en fin de projet. En attendant, toutes les données devront être stockées et récupérées depuis le LocalStorage du navigateur.
