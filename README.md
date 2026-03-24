@@ -60,6 +60,7 @@ interface FavoriteTeam {
 Une API REST sera mise à disposition en fin de projet. En attendant, toutes les données devront être stockées et récupérées depuis le LocalStorage du navigateur.
 
 API personnages/characters : https://69979ebdd66520f95f155769.mockapi.io/api/character
+API équipes/teams : https://69979ebdd66520f95f155769.mockapi.io/api/team
 
 ### Livrables
 - **Application web fonctionnelle** : Code source sur un repository Git (GitHub/GitLab)
